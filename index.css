@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 2.5rem 0;
+}
+
+.container-pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container-pokedex h3 {
+    font-size: 1rem;
+
+}
+
+.container-pokedex img {
+    height: 100px;
+    justify-self: flex-end;
+}
